@@ -1,0 +1,27 @@
+{
+  "name": "poc-playwright",
+  "version": "1.0.0",
+  "description": "Poc Playwright SPC Grafeno",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "list:smoke:test": "playwright test --grep @smoke --list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardinhoSPCGrafeno/poc-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardinhoSPCGrafeno/poc-playwright/issues"
+  },
+  "homepage": "https://github.com/RicardinhoSPCGrafeno/poc-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.17"
+  }
+}
